@@ -1,0 +1,50 @@
+.todo__container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 80vw;
+}
+
+.todo__text {
+  flex: 0.85;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.todo__text p {
+  padding: 10px;
+}
+
+.action__btns {
+  display: flex;
+  flex: 0.15;
+  align-items: center;
+  /* padding: 5px; */
+  /* flex-direction: column; */
+}
+
+.action__btns input {
+  /* width: 50px; */
+  /* height: ; */
+  border-radius: 10px;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.action__btns input:first-child:hover {
+  background-color: #0a66c2;
+  color: white;
+}
+
+.action__btns input:last-child:hover {
+  background-color: #ff4154;
+  color: white;
+}
